@@ -23,6 +23,13 @@ public class studentcontroller {
         return "welcom to my gallary page";
     }
 
+    @GetMapping("/home")
+    public String Home()
+    {
+        return "welcom to my home page";
+    }
+
+
 
 
 }
