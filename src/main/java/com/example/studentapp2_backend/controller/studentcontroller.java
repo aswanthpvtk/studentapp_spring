@@ -11,7 +11,11 @@ public class studentcontroller {
         return "welcom to my web page";
     }
 
-
+    @GetMapping("/contact")
+   public String Contact()
+    {
+        return "welcom to my contact page";
+    }
 
 
 
